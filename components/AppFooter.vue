@@ -3,6 +3,11 @@
     <div class="footer-content">
       <span>&copy; 2025 Swaply. All right reserved.</span>
     </div>
+    <div class="footer-links">
+      <nuxt-link to="/privacyPolicy" class="text-white underline">
+        Privacy Policy
+      </nuxt-link>
+    </div>
   </footer>
 </template>
 
@@ -13,6 +18,6 @@
 <style scoped>
 @import "~/assets/css/main.css";
 footer {
-  @apply bg-blue-500 text-white p-4;
+  @apply bg-blue-500 text-white p-4 flex justify-between items-center;
 }
 </style>
