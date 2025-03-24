@@ -3,15 +3,14 @@
     <UContainer>
       <h2>Introduction</h2>
       <p>
-        This Privacy Notice for __________ ("we," "us," or "our"), describes how
+        This Privacy Notice, describes how
         and why we might access, collect, store, use, and/or share ("process")
         your personal information when you use our services ("Services"),
         including when you:
       </p>
       <ul>
         <li>
-          Visit our website at
-          <link href="http://www.test.fr">http://www.test.fr</link>, or any
+          Visit our website , or any
           website of ours that links to this Privacy Notice
         </li>
         <li>
@@ -48,32 +47,30 @@
     <UContainer class="flex flex-col gap-4">
       <h2>TABLE OF CONTENTS</h2>
       <ol class="flex flex-col gap-2">
-        <li>WHAT INFORMATION DO WE COLLECT?</li>
-        <li>HOW DO WE PROCESS YOUR INFORMATION?</li>
+        <li><a href="#section-1">1. WHAT INFORMATION DO WE COLLECT?</a></li>
+        <li><a href="#section-2">2. HOW DO WE PROCESS YOUR INFORMATION?</a></li>
         <li>
-          WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR PERSONAL INFORMATION?
+          <a href="#section-3">3. WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR PERSONAL INFORMATION?</a>
         </li>
-        <li>WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?</li>
-        <li>WHAT IS OUR STANCE ON THIRD-PARTY WEBSITES?</li>
-        <li>DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?</li>
-        <li>HOW DO WE HANDLE YOUR SOCIAL LOGINS?</li>
-        <li>HOW LONG DO WE KEEP YOUR INFORMATION?</li>
-        <li>HOW DO WE KEEP YOUR INFORMATION SAFE?</li>
-        <li>DO WE COLLECT INFORMATION FROM MINORS?</li>
-        <li>WHAT ARE YOUR PRIVACY RIGHTS?</li>
-        <li>CONTROLS FOR DO-NOT-TRACK FEATURES</li>
-        <li>DO UNITED STATES RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?</li>
-        <li>DO WE MAKE UPDATES TO THIS NOTICE?</li>
-        <li>HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</li>
-        <li>
-          HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?
-        </li>
+        <li><a href="#section-4">4. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?</a></li>
+        <li><a href="#section-5">5. WHAT IS OUR STANCE ON THIRD-PARTY WEBSITES?</a></li>
+        <li><a href="#section-6">6. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?</a></li>
+        <li><a href="#section-7">7. HOW DO WE HANDLE YOUR SOCIAL LOGINS?</a></li>
+        <li><a href="#section-8">8. HOW LONG DO WE KEEP YOUR INFORMATION?</a></li>
+        <li><a href="#section-9">9. HOW DO WE KEEP YOUR INFORMATION SAFE?</a></li>
+        <li><a href="#section-10">10. DO WE COLLECT INFORMATION FROM MINORS?</a></li>
+        <li><a href="#section-11">11. WHAT ARE YOUR PRIVACY RIGHTS?</a></li>
+        <li><a href="#section-12">12. CONTROLS FOR DO-NOT-TRACK FEATURES</a></li>
+        <li><a href="#section-13">13. DO UNITED STATES RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?</a></li>
+        <li><a href="#section-14">14. DO WE MAKE UPDATES TO THIS NOTICE?</a></li>
+        <li><a href="#section-15">15. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</a></li>
+        <li><a href="#section-16">16. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?</a></li>
       </ol>
     </UContainer>
 <USeparator orientation="horizontal" class="h-10" />
     <!-- Section 1: What Information Do We Collect? -->
     <UContainer>
-      <h2>1. WHAT INFORMATION DO WE COLLECT?</h2>
+      <h2 id="section-1">1. WHAT INFORMATION DO WE COLLECT?</h2>
       <h3>Personal information you disclose to us</h3>
       <p>
         <strong>In Short:</strong> We collect personal information that you
@@ -142,7 +139,7 @@
 <USeparator orientation="horizontal" class="h-10" />
     <!-- Section 2: How Do We Process Your Information? -->
     <UContainer>
-      <h2>2. HOW DO WE PROCESS YOUR INFORMATION?</h2>
+      <h2 id="section-2">2. HOW DO WE PROCESS YOUR INFORMATION?</h2>
       <p>
         <strong>In Short:</strong> We process your information to provide,
         improve, and administer our Services, communicate with you, for security
@@ -169,7 +166,7 @@
 <USeparator orientation="horizontal" class="h-10" />
     <!-- Section 3: What Legal Bases Do We Rely On to Process Your Information? -->
     <UContainer>
-      <h2
+      <h2 id="section-3"
         >3. WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR INFORMATION?</h2
       >
       <p>
@@ -275,7 +272,7 @@
 <USeparator orientation="horizontal" class="h-10" />
     <!-- Section 4: When and With Whom Do We Share Your Personal Information? -->
     <UContainer>
-      <h2>4. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?</h2>
+      <h2 id="section-4">4. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?</h2>
       <p>
         <strong>In Short:</strong> We may share information in specific
         situations described in this section and/or with the following third
@@ -302,7 +299,7 @@
 <USeparator orientation="horizontal" class="h-10" />
     <!-- Section 5: What Is Our Stance on Third-Party Websites? -->
     <UContainer>
-      <h2>5. WHAT IS OUR STANCE ON THIRD-PARTY WEBSITES?</h2>
+      <h2 id="section-5">5. WHAT IS OUR STANCE ON THIRD-PARTY WEBSITES?</h2>
       <p>
         <strong>In Short:</strong> We are not responsible for the safety of any
         information that you share with third parties that we may link to or who
@@ -329,7 +326,7 @@
 <USeparator orientation="horizontal" class="h-10" />
     <!-- Section 6: Do We Use Cookies and Other Tracking Technologies? -->
     <UContainer>
-      <h2>6. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?</h2>
+      <h2 id="section-6">6. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?</h2>
       <p>
         <strong>In Short:</strong> We may use cookies and other tracking
         technologies to collect and store your information.
@@ -367,7 +364,7 @@
 <USeparator orientation="horizontal" class="h-10" />
     <!-- Section 7: How Do We Handle Your Social Logins? -->
     <UContainer>
-      <h2>7. HOW DO WE HANDLE YOUR SOCIAL LOGINS?</h2>
+      <h2 id="section-7">7. HOW DO WE HANDLE YOUR SOCIAL LOGINS?</h2>
       <p>
         <strong>In Short:</strong> If you choose to register or log in to our
         Services using a social media account, we may have access to certain
@@ -397,7 +394,7 @@
 <USeparator orientation="horizontal" class="h-10" />
     <!-- Section 8: How Long Do We Keep Your Information? -->
     <UContainer>
-      <h2>8. HOW LONG DO WE KEEP YOUR INFORMATION?</h2>
+      <h2 id="section-8">8. HOW LONG DO WE KEEP YOUR INFORMATION?</h2>
       <p>
         <strong>In Short:</strong> We keep your information for as long as
         necessary to fulfill the purposes outlined in this Privacy Notice unless
@@ -423,7 +420,7 @@
 <USeparator orientation="horizontal" class="h-10" />
     <!-- Section 9: How Do We Keep Your Information Safe? -->
     <UContainer>
-      <h2>9. HOW DO WE KEEP YOUR INFORMATION SAFE?</h2>
+      <h2 id="section-9">9. HOW DO WE KEEP YOUR INFORMATION SAFE?</h2>
       <p>
         <strong>In Short:</strong> We aim to protect your personal information
         through a system of organizational and technical security measures.
@@ -446,7 +443,7 @@
 <USeparator orientation="horizontal" class="h-10" />
     <!-- Section 10: Do We Collect Information from Minors? -->
     <UContainer>
-      <h2>10. DO WE COLLECT INFORMATION FROM MINORS?</h2>
+      <h2 id="section-10">10. DO WE COLLECT INFORMATION FROM MINORS?</h2>
       <p>
         <strong>In Short:</strong> We do not knowingly collect data from or
         market to children under 18 years of age.
@@ -469,7 +466,7 @@
 <USeparator orientation="horizontal" class="h-10" />
     <!-- Section 11: What Are Your Privacy Rights? -->
     <UContainer>
-      <h2>11. WHAT ARE YOUR PRIVACY RIGHTS?</h2>
+      <h2 id="section-11">11. WHAT ARE YOUR PRIVACY RIGHTS?</h2>
       <p>
         <strong>In Short:</strong> Depending on your state of residence in the
         US or in some regions, such as the European Economic Area (EEA), United
@@ -548,7 +545,7 @@
 <USeparator orientation="horizontal" class="h-10" />
     <!-- Section 12: Controls for Do-Not-Track Features -->
     <UContainer>
-      <h2>12. CONTROLS FOR DO-NOT-TRACK FEATURES</h2>
+      <h2 id="section-12">12. CONTROLS FOR DO-NOT-TRACK FEATURES</h2>
       <p>
         Most web browsers and some mobile operating systems and mobile
         applications include a Do-Not-Track ("DNT") feature or setting you can
@@ -571,7 +568,7 @@
 <USeparator orientation="horizontal" class="h-10" />
     <!-- Section 13: Do United States Residents Have Specific Privacy Rights? -->
     <UContainer>
-      <h2>13. DO UNITED STATES RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?</h2>
+      <h2 id="section-13">13. DO UNITED STATES RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?</h2>
       <p>
         <strong>In Short:</strong> If you are a resident of California,
         Colorado, Connecticut, Delaware, Florida, Indiana, Iowa, Kentucky,
@@ -761,7 +758,7 @@
 <USeparator orientation="horizontal" class="h-10" />
     <!-- Section 14: Do We Make Updates to This Notice? -->
     <UContainer>
-      <h2>14. DO WE MAKE UPDATES TO THIS NOTICE?</h2>
+      <h2 id="section-14">14. DO WE MAKE UPDATES TO THIS NOTICE?</h2>
       <p>
         <strong>In Short:</strong> Yes, we will update this notice as necessary
         to stay compliant with relevant laws.
@@ -779,7 +776,7 @@
 <USeparator orientation="horizontal" class="h-10" />
     <!-- Section 15: How Can You Contact Us About This Notice? -->
     <UContainer>
-      <h2>15. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</h2>
+      <h2 id="section-15">15. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</h2>
       <p>
         If you have questions or comments about this notice, you may email us at
         <link href="mailto:turnuplucas@gmail.com"
@@ -787,14 +784,11 @@
         >
         or contact us by post at:
       </p>
-      <p>__________</p>
-      <p>__________</p>
-      <p>__________</p>
     </UContainer>
 <USeparator orientation="horizontal" class="h-10" />
     <!-- Section 16: How Can You Review, Update, or Delete the Data We Collect From You? -->
     <UContainer>
-      <h2>
+      <h2 id="section-16">
         16. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?
       </h2>
       <p>
@@ -808,8 +802,8 @@
         information, please fill out and submit a data subject access request.
       </p>
     </UContainer>
-  </UContainer><USeparator orientation="horizontal" class="h-10" />
-</template><USeparator orientation="horizontal" class="h-10" />
+  </UContainer>
+</template>
 
 <script lang="ts" setup>
 const activeNames = ["1"];
