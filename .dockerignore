@@ -1,0 +1,24 @@
+# Dependencies
+node_modules
+.nuxt
+.output
+
+# Version control
+.git
+.gitignore
+
+# IDE
+.vscode
+.idea
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db 
