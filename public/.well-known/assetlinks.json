@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.swaptun.app",
+      "sha256_cert_fingerprints": [
+        "8A:91:12:C7:CF:2D:7F:B3:74:82:A5:41:8E:03:99:FB:41:0D:6B:45:5E:0C:D1:9D:B7:D1:81:01:5D:E0:9F:CE"
+      ]
+    }
+  }
+]
