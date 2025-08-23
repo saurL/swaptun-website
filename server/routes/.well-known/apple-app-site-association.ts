@@ -5,7 +5,7 @@ export default defineEventHandler((event) => {
   "applinks": {
     "details": [
       {
-        "appIDs": ["TJGS234P96.com.swaptun.com"],
+        "appIDs": ["TJGS234P96.com.swaptun.app"],
         "components": [
           {
             "/": "/open/*",
