@@ -10,6 +10,10 @@ export default defineEventHandler((event) => {
           {
             "/": "/open/*",
             "comment": "Matches any URL whose path starts with /open/"
+          },
+          {
+            "/": "/reset-password",
+            "comment": "Matches any URL whose path starts with /reset-password"
           }
         ]
       }
