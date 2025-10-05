@@ -3,7 +3,7 @@ import { NuxtPage } from "#components";
 </script>
 
 <template>
-  <div>
+  <div class="bg-white">
     <UApp>
       <NuxtLayout>
         <NuxtPage />
