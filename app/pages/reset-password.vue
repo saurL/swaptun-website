@@ -88,14 +88,15 @@
         </div>
 
         <!-- Submit Button -->
-        <button
+        <Button
           type="submit"
           :disabled="loading || !password || !confirmPassword"
-          class="w-full bg-gradient-to-r from-[#E87A3A] to-[#CB5520] text-white font-semibold py-3 px-6 rounded-xl shadow-lg hover:shadow-xl hover:from-[#FF985C] hover:to-[#E87A3A] focus:outline-none focus:ring-2 focus:ring-[#E87A3A] focus:ring-offset-2 transition-all disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:from-[#E87A3A] disabled:hover:to-[#CB5520]"
+          block
+          size="md"
         >
           <span v-if="loading">Resetting Password...</span>
           <span v-else>Reset Password</span>
-        </button>
+        </Button>
       </form>
 
       <!-- Back to Login Link -->

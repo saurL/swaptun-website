@@ -3,7 +3,7 @@
     class="sticky top-0 z-50 transition-all duration-300"
     :class="
       isScrolled
-        ? 'bg-white/80 backdrop-blur-md border-b border-orange-200/50 shadow-sm'
+        ? 'bg-white/80 backdrop-blur-md shadow-sm'
         : 'bg-transparent'
     "
   >
@@ -48,11 +48,10 @@
 
           <!-- Language Selector -->
           <div class="relative">
-            <UButton
+            <Button
               variant="ghost"
               size="sm"
               @click="langMenuOpen = !langMenuOpen"
-              class="text-sm"
             >
               <span class="text-sm font-medium">{{
                 currentLocale.code.toUpperCase()
@@ -70,7 +69,7 @@
                   d="M19 9l-7 7-7-7"
                 />
               </svg>
-            </UButton>
+            </Button>
 
             <!-- Dropdown Menu -->
             <div
@@ -110,12 +109,9 @@
             </div>
           </div>
 
-          <UButton
-            size="sm"
-            class="bg-gradient-to-r from-[#E87A3A] to-[#CB5520] hover:from-[#FF985C] hover:to-[#E87A3A] text-white shadow-md hover:shadow-lg transition-all"
-          >
+          <Button size="sm" variant="primary">
             {{ $t("header.download") }}
-          </UButton>
+          </Button>
         </div>
 
         <!-- Mobile menu button -->
@@ -213,12 +209,9 @@
             </div>
           </div>
 
-          <UButton
-            block
-            class="bg-gradient-to-r from-[#E87A3A] to-[#CB5520] hover:from-[#FF985C] hover:to-[#E87A3A] text-white shadow-md"
-          >
+          <Button block variant="primary">
             {{ $t("header.download") }}
-          </UButton>
+          </Button>
         </div>
       </div>
     </nav>

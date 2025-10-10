@@ -19,24 +19,16 @@
           {{ $t("hero.description") }}
         </p>
         <div class="mt-10 flex items-center justify-center gap-x-6">
-          <UButton
-            size="xl"
-            class="bg-gradient-to-r from-[#FF985C] to-[#E87A3A] hover:from-[#FF985C] hover:to-[#FF985C] text-white shadow-lg hover:shadow-xl transition-all"
-            icon="i-heroicons-arrow-down-tray"
-            trailing
-          >
+          <Button size="xl" variant="primary">
             {{ $t("hero.downloadApp") }}
-          </UButton>
+          </Button>
           <!--
-          <UButton
+          <Button
             size="xl"
-            color="gray"
             variant="ghost"
-            icon="i-heroicons-play-circle"
-            trailing
           >
             {{ $t('hero.watchDemo') }}
-          </UButton>-->
+          </Button>-->
         </div>
       </div>
 
