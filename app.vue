@@ -4,6 +4,7 @@ import { NuxtPage } from "#components";
 
 <template>
   <div class="bg-white">
+    <StructuredData />
     <UApp>
       <NuxtLayout>
         <NuxtPage />

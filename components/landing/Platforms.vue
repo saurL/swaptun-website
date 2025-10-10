@@ -2,12 +2,12 @@
   <section id="platforms" class="py-24 sm:py-32 bg-[#FFF8F3]">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-2xl text-center">
-        <h2 class="text-base font-semibold leading-7 text-[#CB5520]">Compatibility</h2>
+        <h2 class="text-base font-semibold leading-7 text-[#CB5520]">{{ $t('platforms.subtitle') }}</h2>
         <p class="mt-2 text-4xl font-bold tracking-tight text-[#2E2E2E] sm:text-5xl">
-          All your favorite platforms
+          {{ $t('platforms.title') }}
         </p>
         <p class="mt-6 text-lg leading-8 text-[#7D7D7D]">
-          Swaptun supports the major music streaming platforms and regularly adds new ones.
+          {{ $t('platforms.description') }}
         </p>
       </div>
 
@@ -17,16 +17,16 @@
             <thead class="bg-gradient-to-r from-orange-50 to-[#FFF8F3]">
               <tr>
                 <th scope="col" class="py-4 pl-6 pr-3 text-left text-sm font-semibold text-[#2E2E2E]">
-                  Platform
+                  {{ $t('platforms.platform') }}
                 </th>
                 <th scope="col" class="px-3 py-4 text-center text-sm font-semibold text-[#2E2E2E]">
-                  Import
+                  {{ $t('platforms.import') }}
                 </th>
                 <th scope="col" class="px-3 py-4 text-center text-sm font-semibold text-[#2E2E2E]">
-                  Export
+                  {{ $t('platforms.export') }}
                 </th>
                 <th scope="col" class="px-3 py-4 text-center text-sm font-semibold text-[#2E2E2E]">
-                  Status
+                  {{ $t('platforms.status') }}
                 </th>
               </tr>
             </thead>
@@ -38,26 +38,38 @@
                       :src="platform.logo"
                       :alt="platform.name"
                       class="h-10 w-10 rounded-lg object-contain"
+                      :class="{ 'opacity-40': platform.status !== 'Available' }"
                     />
                     <div class="font-medium text-[#2E2E2E]">{{ platform.name }}</div>
                   </div>
                 </td>
                 <td class="whitespace-nowrap px-3 py-5 text-center">
                   <span v-if="platform.import" class="text-2xl">✅</span>
-                  <span v-else class="text-2xl opacity-30">⬜</span>
+                  <span v-else class="text-2xl text-[#E87A3A] opacity-40">✗</span>
                 </td>
                 <td class="whitespace-nowrap px-3 py-5 text-center">
                   <span v-if="platform.export" class="text-2xl">✅</span>
-                  <span v-else class="text-2xl opacity-30">⬜</span>
+                  <span v-else class="text-2xl text-[#E87A3A] opacity-40">✗</span>
                 </td>
                 <td class="whitespace-nowrap px-3 py-5 text-center">
-                  <UBadge
-                    :color="platform.status === 'Available' ? 'green' : platform.status === 'Coming Soon' ? 'yellow' : 'gray'"
-                    variant="subtle"
-                    size="md"
+                  <span
+                    v-if="platform.status === 'Available'"
+                    class="inline-flex items-center rounded-full bg-green-50 px-3 py-1 text-sm font-semibold text-green-700 ring-1 ring-inset ring-green-600/20"
                   >
-                    {{ platform.status }}
-                  </UBadge>
+                    {{ $t('platforms.available') }}
+                  </span>
+                  <span
+                    v-else-if="platform.status === 'Coming Soon'"
+                    class="inline-flex items-center rounded-full bg-yellow-50 px-3 py-1 text-sm font-semibold text-yellow-800 ring-1 ring-inset ring-yellow-600/20"
+                  >
+                    {{ $t('platforms.comingSoon') }}
+                  </span>
+                  <span
+                    v-else
+                    class="inline-flex items-center rounded-full bg-orange-50 px-3 py-1 text-sm font-semibold text-[#CB5520] ring-1 ring-inset ring-orange-600/20"
+                  >
+                    {{ $t('platforms.inDevelopment') }}
+                  </span>
                 </td>
               </tr>
             </tbody>
@@ -66,9 +78,9 @@
 
         <div class="mt-8 text-center">
           <p class="text-sm text-[#7D7D7D]">
-            More platforms coming soon! Have a request?
+            {{ $t('platforms.moreInfo') }}
             <a href="mailto:contact@swaptun.com" class="font-semibold text-[#CB5520] hover:text-[#E87A3A] transition-colors">
-              Contact us
+              {{ $t('platforms.contactUs') }}
             </a>
           </p>
         </div>
@@ -78,6 +90,8 @@
 </template>
 
 <script setup lang="ts">
+const { t } = useI18n()
+
 interface Platform {
   name: string;
   logo: string;

@@ -1,0 +1,282 @@
+{
+  "hero": {
+    "title": "Condividi le tue",
+    "titleHighlight": "playlist",
+    "titleEnd": "ovunque",
+    "description": "Condividi le tue playlist preferite con amici su qualsiasi piattaforma di streaming. Invia una playlist Spotify a un utente Apple Music, o condividi YouTube Music con ascoltatori Deezer. Rompi le barriere tra piattaforme e diffondi la musica che ami.",
+    "downloadApp": "Scarica l'app",
+    "watchDemo": "Guarda la demo"
+  },
+  "features": {
+    "subtitle": "Semplicità e Velocità",
+    "title": "Tutto ciò di cui hai bisogno per condividere la tua musica",
+    "description": "Swaptun ti permette di condividere playlist con chiunque, indipendentemente dal loro servizio di streaming. Invia le tue scoperte musicali tra piattaforme senza sforzo.",
+    "instantSharing": {
+      "title": "Condivisione Istantanea",
+      "description": "Condividi playlist con amici in pochi secondi, indipendentemente dalla piattaforma che usano. La nostra tecnologia intelligente converte automaticamente i brani in qualsiasi servizio di streaming."
+    },
+    "crossPlatform": {
+      "title": "Condivisione Cross-Platform",
+      "description": "Rompi le barriere tra piattaforme. Invia una playlist Spotify agli utenti Apple Music, o condividi YouTube Music con amici Deezer. Tutti godono della tua musica sulla loro app preferita."
+    },
+    "secure": {
+      "title": "Sicuro e Privato",
+      "description": "I tuoi dati rimangono privati. Conserviamo solo il minimo necessario per trasferire le tue playlist."
+    },
+    "accuracy": {
+      "title": "Massima Precisione",
+      "description": "Il nostro algoritmo avanzato di corrispondenza garantisce che trovi esattamente gli stessi brani sulla tua nuova piattaforma."
+    },
+    "mobile": {
+      "title": "App Mobile",
+      "description": "Disponibile su iOS e Android. Trasferisci le tue playlist ovunque tu sia, direttamente dal tuo telefono."
+    },
+    "unlimited": {
+      "title": "Condivisione Illimitata",
+      "description": "Condividi tutte le playlist che vuoi con amici illimitati. Nessun limite, nessun abbonamento nascosto. Diffondi la musica che ami senza confini."
+    }
+  },
+  "platforms": {
+    "subtitle": "Compatibilità",
+    "title": "Tutte le tue piattaforme preferite",
+    "description": "Condividi playlist tra tutte le principali piattaforme di streaming. Connetti amici attraverso i servizi e rendi la musica veramente universale.",
+    "platform": "Piattaforma",
+    "import": "Importa",
+    "export": "Esporta",
+    "status": "Stato",
+    "available": "Disponibile",
+    "comingSoon": "Prossimamente",
+    "inDevelopment": "In sviluppo",
+    "moreInfo": "Altre piattaforme in arrivo! Hai una richiesta?",
+    "contactUs": "Contattaci"
+  },
+  "cta": {
+    "title": "Pronto a condividere la tua musica?",
+    "description": "Scarica Swaptun gratuitamente e inizia a condividere le tue playlist con amici su tutte le piattaforme.",
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "downloadOn": "Scarica su",
+    "availableOn": "Disponibile su"
+  },
+  "header": {
+    "features": "Caratteristiche",
+    "platforms": "Piattaforme",
+    "privacy": "Privacy",
+    "terms": "Termini",
+    "download": "Scarica"
+  },
+  "footer": {
+    "description": "Condividi le tue playlist su tutte le piattaforme di streaming. Rompi le barriere e connetti amici attraverso la musica, indipendentemente dal servizio che usano.",
+    "product": "Prodotto",
+    "pricing": "Prezzi",
+    "legal": "Legale",
+    "termsOfService": "Termini di servizio",
+    "contact": "Contatto",
+    "allRightsReserved": "Tutti i diritti riservati."
+  },
+
+  "terms": {
+    "title": "Termini di Servizio",
+    "description": "Si prega di leggere attentamente questi termini prima di utilizzare Swaptun. Utilizzando il nostro servizio, accetti di essere vincolato da questi termini.",
+    "lastUpdated": "Ultimo aggiornamento",
+    "section1": {
+      "title": "1. Accettazione dei Termini",
+      "content": "Accedendo o utilizzando Swaptun, accetti di essere vincolato da questi Termini di Servizio e da tutte le leggi e regolamenti applicabili. Se non accetti uno qualsiasi di questi termini, non sei autorizzato a utilizzare questo servizio.",
+      "important": "Importante:",
+      "importantText": "Questi termini costituiscono un accordo legalmente vincolante tra te e Swaptun. Assicurati di comprenderli e accettarli prima di utilizzare il nostro servizio."
+    },
+    "section2": {
+      "title": "2. Descrizione del Servizio",
+      "intro": "Swaptun è un servizio di trasferimento di playlist che ti consente di:",
+      "item1": "Trasferire playlist tra diverse piattaforme di streaming musicale",
+      "item2": "Gestire e organizzare le tue collezioni musicali",
+      "item3": "Condividere playlist tra diverse piattaforme"
+    },
+    "section3": {
+      "title": "3. Account Utente e Registrazione",
+      "requirements": {
+        "title": "Requisiti dell'Account",
+        "item1": "Devi avere almeno 13 anni per utilizzare Swaptun",
+        "item2": "Devi fornire informazioni accurate e complete",
+        "item3": "Sei responsabile della sicurezza del tuo account"
+      },
+      "security": {
+        "title": "Sicurezza dell'Account",
+        "content": "Sei responsabile della protezione della tua password e di tutte le attività svolte sul tuo account. Devi informarci immediatamente in caso di accesso non autorizzato o violazione della sicurezza."
+      }
+    },
+    "section4": {
+      "title": "4. Politica di Uso Accettabile",
+      "intro": "Accetti di NON:",
+      "item1": {
+        "title": "Violazione delle Leggi o dei Diritti",
+        "description": "Utilizzare il servizio per scopi illegali o violare diritti di proprietà intellettuale"
+      },
+      "item2": {
+        "title": "Abuso del Servizio",
+        "description": "Tentare di disturbare, sovraccaricare o danneggiare i nostri server o reti"
+      },
+      "item3": {
+        "title": "Accesso Non Autorizzato",
+        "description": "Accedere agli account di altri utenti o tentare di aggirare le misure di sicurezza"
+      },
+      "item4": {
+        "title": "Uso Improprio dei Contenuti",
+        "description": "Utilizzare sistemi automatizzati per estrarre o raccogliere dati senza autorizzazione"
+      }
+    },
+    "section5": {
+      "title": "5. Proprietà Intellettuale",
+      "content": "Il servizio Swaptun, inclusi il suo design, codice e contenuti, è protetto da copyright e altre leggi sulla proprietà intellettuale. Non è consentito riprodurre, distribuire o creare opere derivate senza il nostro esplicito consenso scritto.",
+      "yourContent": "I tuoi contenuti:",
+      "yourContentText": "Conservi tutti i diritti sulle playlist e sui dati che trasferisci. Utilizzando Swaptun, ci concedi una licenza limitata per elaborare i tuoi dati esclusivamente allo scopo di fornire il nostro servizio."
+    },
+    "section6": {
+      "title": "6. Servizi di Terze Parti",
+      "content": "Swaptun si integra con piattaforme musicali di terze parti (Spotify, Apple Music, ecc.). L'utilizzo di tali piattaforme è soggetto ai loro termini di servizio e alle loro politiche sulla privacy. Non siamo responsabili dei loro contenuti, servizi o pratiche."
+    },
+    "section7": {
+      "title": "7. Disponibilità e Modifiche del Servizio",
+      "changes": {
+        "title": "Modifiche al Servizio",
+        "content": "Ci riserviamo il diritto di modificare, sospendere o interrompere qualsiasi parte del servizio in qualsiasi momento, con o senza preavviso. Potremmo anche limitare determinate funzionalità o restringere l'accesso a parti del servizio."
+      },
+      "warranty": {
+        "title": "Nessuna Garanzia",
+        "content": "Il servizio è fornito 'così com'è', senza garanzie di alcun tipo, espresse o implicite. Non garantiamo un accesso ininterrotto, privo di errori o sicuro al servizio."
+      }
+    },
+    "section8": {
+      "title": "8. Limitazione di Responsabilità",
+      "intro": "Nella misura massima consentita dalla legge, Swaptun non sarà responsabile per:",
+      "item1": "Danni indiretti, incidentali o consequenziali",
+      "item2": "Perdita di dati, playlist o accesso all'account",
+      "item3": "Errori o problemi relativi a piattaforme di terze parti",
+      "item4": "Accesso non autorizzato derivante dalla mancata protezione del tuo account"
+    },
+    "section9": {
+      "title": "9. Cessazione",
+      "content1": "Possiamo sospendere o chiudere il tuo account immediatamente, senza preavviso, se violi questi Termini di Servizio. Puoi anche chiudere il tuo account in qualsiasi momento contattandoci o utilizzando la funzione di eliminazione nell'app.",
+      "content2": "Alla cessazione, il tuo diritto di utilizzare il servizio cesserà immediatamente e i tuoi dati saranno eliminati in conformità con la nostra Informativa sulla Privacy."
+    },
+    "section10": {
+      "title": "10. Legge Applicabile",
+      "content": "Questi Termini saranno regolati e interpretati in conformità con le leggi applicabili, indipendentemente dai principi sui conflitti di legge. Eventuali controversie derivanti da questi termini saranno risolte tramite arbitrato vincolante o presso i tribunali competenti."
+    },
+    "section11": {
+      "title": "11. Modifiche a Questi Termini",
+      "content": "Ci riserviamo il diritto di modificare questi Termini di Servizio in qualsiasi momento. Ti informeremo di eventuali modifiche importanti via e-mail o tramite l'app. L'uso continuato di Swaptun dopo tali modifiche implica l'accettazione dei termini aggiornati."
+    },
+    "section12": {
+      "title": "12. Contattaci",
+      "question": "Domande sui Termini di Servizio?",
+      "subtitle": "Siamo qui per aiutarti. Contattaci:"
+    }
+  },
+  "privacy": {
+    "title": "Informativa sulla Privacy",
+    "description": "La tua privacy è importante per noi. Questa informativa spiega come raccogliamo, utilizziamo e proteggiamo le tue informazioni personali.",
+    "lastUpdated": "Ultimo aggiornamento",
+    "summary": {
+      "title": "Riepilogo",
+      "content": "Swaptun è un servizio di trasferimento di playlist che ti aiuta a condividere musica tra piattaforme di streaming. Raccogliamo solo le informazioni strettamente necessarie per fornire il servizio: la tua email, il nome utente e i dati delle playlist che scegli di trasferire. Non memorizziamo mai le tue password o informazioni sensibili."
+    },
+    "section1": {
+      "title": "1. Informazioni che Raccogliamo",
+      "personalInfo": {
+        "title": "Informazioni Personali",
+        "intro": "Quando utilizzi Swaptun, raccogliamo:",
+        "email": "Indirizzo email",
+        "emailDesc": "per la creazione dell’account e le comunicazioni",
+        "username": "Nome utente",
+        "usernameDesc": "per identificare il tuo account",
+        "playlist": "Dati delle playlist",
+        "playlistDesc": "vengono eliminate automaticamente non appena disconnetti una piattaforma."
+      },
+      "socialMedia": {
+        "title": "Accesso tramite Social Media",
+        "content": "Se scegli di accedere tramite social media (Spotify, Apple Music, ecc.), riceviamo informazioni di base dal tuo profilo. Le utilizziamo solo per facilitare il trasferimento delle playlist."
+      }
+    },
+    "section2": {
+      "title": "2. Come Utilizziamo le Tue Informazioni",
+      "intro": "Utilizziamo le tue informazioni per:",
+      "transfer": {
+        "title": "Trasferire le Playlist",
+        "description": "Elaborare e trasferire le tue playlist musicali tra piattaforme"
+      },
+      "account": {
+        "title": "Gestire il Tuo Account",
+        "description": "Creare e mantenere il tuo account utente"
+      },
+      "security": {
+        "title": "Sicurezza e Prevenzione Frodi",
+        "description": "Proteggere il tuo account e prevenire accessi non autorizzati"
+      },
+      "communication": {
+        "title": "Comunicazioni",
+        "description": "Inviare aggiornamenti importanti riguardanti il servizio"
+      }
+    },
+    "section3": {
+      "title": "3. Condivisione delle Tue Informazioni",
+      "intro": "Non vendiamo le tue informazioni personali. Le condividiamo solo quando:",
+      "item1": "Autorizzi esplicitamente il trasferimento verso una piattaforma di streaming",
+      "item2": "È richiesto dalla legge o necessario per proteggere i nostri diritti legali",
+      "item3": "Con fornitori di servizi che operano sotto accordi di riservatezza"
+    },
+    "section4": {
+      "title": "4. Sicurezza dei Dati",
+      "intro": "Applichiamo misure di sicurezza standard per proteggere le tue informazioni:",
+      "item1": "Trasmissione dati crittografata (HTTPS/TLS)",
+      "item2": "Archiviazione sicura delle password (hash e salt)",
+      "item3": "Audit e aggiornamenti di sicurezza regolari",
+      "item4": "Accesso limitato ai dati personali"
+    },
+    "section5": {
+      "title": "5. I Tuoi Diritti sulla Privacy",
+      "intro": "Hai il diritto di:",
+      "access": {
+        "title": "Accedere ai Tuoi Dati",
+        "description": "Richiedere una copia di tutte le informazioni personali in nostro possesso"
+      },
+      "correct": {
+        "title": "Correggere i Tuoi Dati",
+        "description": "Aggiornare o correggere eventuali informazioni inesatte"
+      },
+      "delete": {
+        "title": "Eliminare i Tuoi Dati",
+        "description": "Richiedere la cancellazione del tuo account e di tutti i dati associati"
+      },
+      "export": {
+        "title": "Esportare i Tuoi Dati",
+        "description": "Scaricare i tuoi dati in un formato portabile"
+      }
+    },
+    "section6": {
+      "title": "6. Cookie e Tracciamento",
+      "intro": "Utilizziamo cookie essenziali per:",
+      "item1": "Mantenerti connesso al tuo account",
+      "item2": "Memorizzare le tue preferenze",
+      "item3": "Garantire la sicurezza della sessione",
+      "outro": "Puoi gestire le preferenze dei cookie nelle impostazioni del browser."
+    },
+    "section7": {
+      "title": "7. Conservazione dei Dati",
+      "content": "Conserviamo le tue informazioni personali solo per il tempo necessario a fornire i nostri servizi. Quando elimini il tuo account, rimuoviamo tutti i tuoi dati personali entro 30 giorni, salvo obblighi legali contrari."
+    },
+    "section8": {
+      "title": "8. Privacy dei Minori",
+      "content": "Swaptun non è destinato a utenti di età inferiore a 13 anni. Non raccogliamo intenzionalmente informazioni dai minori. Se ritieni che lo abbiamo fatto, contattaci immediatamente."
+    },
+    "section9": {
+      "title": "9. Modifiche a Questa Politica",
+      "content": "Potremmo aggiornare questa informativa sulla privacy di tanto in tanto. Ti informeremo via email o tramite l’app in caso di modifiche significative. L’uso continuato di Swaptun implica l’accettazione della politica aggiornata."
+    },
+    "section10": {
+      "title": "10. Contattaci",
+      "question": "Domande sulla tua privacy o su questa politica?",
+      "subtitle": "Siamo qui per aiutarti. Contattaci:"
+    }
+  }
+}

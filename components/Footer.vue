@@ -11,8 +11,7 @@
             </span>
           </div>
           <p class="text-sm text-gray-400 max-w-md">
-            Transfer your playlists between all your favorite streaming platforms.
-            Share the music you love with your friends, no matter their platform.
+            {{ $t('footer.description') }}
           </p>
           <div class="mt-6 flex gap-x-4">
             <a href="#" class="text-gray-400 hover:text-[#E87A3A] transition-colors">
@@ -38,42 +37,42 @@
 
         <!-- Links -->
         <div>
-          <h3 class="text-sm font-semibold text-white mb-4">Product</h3>
+          <h3 class="text-sm font-semibold text-white mb-4">{{ $t('footer.product') }}</h3>
           <ul class="space-y-3">
             <li>
               <a href="#features" class="text-sm text-gray-400 hover:text-[#E87A3A] transition-colors">
-                Features
+                {{ $t('header.features') }}
               </a>
             </li>
             <li>
               <a href="#platforms" class="text-sm text-gray-400 hover:text-[#E87A3A] transition-colors">
-                Platforms
+                {{ $t('header.platforms') }}
               </a>
             </li>
             <li>
               <a href="#" class="text-sm text-gray-400 hover:text-[#E87A3A] transition-colors">
-                Pricing
+                {{ $t('footer.pricing') }}
               </a>
             </li>
           </ul>
         </div>
 
         <div>
-          <h3 class="text-sm font-semibold text-white mb-4">Legal</h3>
+          <h3 class="text-sm font-semibold text-white mb-4">{{ $t('footer.legal') }}</h3>
           <ul class="space-y-3">
             <li>
               <a href="/privacyPolicy" class="text-sm text-gray-400 hover:text-[#E87A3A] transition-colors">
-                Privacy
+                {{ $t('header.privacy') }}
               </a>
             </li>
             <li>
-              <a href="#" class="text-sm text-gray-400 hover:text-[#E87A3A] transition-colors">
-                Terms of Use
+              <a href="/termsOfService" class="text-sm text-gray-400 hover:text-[#E87A3A] transition-colors">
+                {{ $t('footer.termsOfService') }}
               </a>
             </li>
             <li>
               <a href="mailto:contact@swaptun.com" class="text-sm text-gray-400 hover:text-[#E87A3A] transition-colors">
-                Contact
+                {{ $t('footer.contact') }}
               </a>
             </li>
           </ul>
@@ -82,7 +81,7 @@
 
       <div class="mt-12 border-t border-gray-700 pt-8">
         <p class="text-sm text-gray-400 text-center">
-          &copy; {{ new Date().getFullYear() }} Swaptun. All rights reserved.
+          &copy; {{ new Date().getFullYear() }} Swaptun. {{ $t('footer.allRightsReserved') }}
         </p>
       </div>
     </div>
